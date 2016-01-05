@@ -1,0 +1,114 @@
+{
+    "FLAVOUR_0_TITLE" : {
+	"description" : "",
+	"message" : "Get your crime record wiped here!"
+    },
+    "FLAVOUR_0_MESSAGE" : {
+	"description" : "",
+	"message" : "Problems with law enforcement authorities? Is your crime record preventing you from living the free life you deserve? We can help! Get your current fines taken care of and your crime history wiped clean. We service all nearby factions!"
+    },
+    "METHOD_1" : {
+	"description" : "",
+	"message" : "I employ some of the best hackers {system} has to offer."
+    },
+    "METHOD_2" : {
+	"description" : "",
+	"message" : "If I told you I would have to liquidate you."
+    },
+    "METHOD_3" : {
+	"description" : "",
+	"message" : "I have some good friends in the police."
+    },
+    "METHOD_4" : {
+	"description" : "",
+	"message" : "A little bit of money to the right person goes a long way."
+    },
+    "METHOD_5" : {
+	"description" : "",
+	"message" : "I have a little database with compromising information on many a policeman."
+    },
+    "HOW_CAN_YOU_PULL_THIS_OFF" : {
+	"description" : "",
+	"message" : "How can you pull this off?"
+    },
+    "ERASE_CRIME_HISTORY" : {
+	"description" : "",
+	"message" : "Erase crime history."
+    },
+    "PAY_FINE" : {
+	"description" : "",
+	"message" : "Cancel crime fine."
+    },
+    "MURDER" : {
+	"description" : "",
+	"message" : "Murder"
+    },
+    "PIRACY" : {
+	"description" : "",
+	"message" : "Piracy"
+    },
+    "WEAPONS_DISCHARGE" : {
+	"description" : "",
+	"message" : "Unlawful Weapons Discharge"
+    },
+    "TRADING_ILLEGAL_GOODS" : {
+	"description" : "",
+	"message" : "Trading Illegal Goods"
+    },
+    "DUMPING" : {
+	"description" : "",
+	"message" : "Dumping"
+    },
+    "WE_HAVE_NO_BUSINESS_WITH_YOU" : {
+	"description" : "",
+	"message" : "Your plate is clean. We have no business with you."
+    },
+    "NO_CRIME_HISTORY" : {
+	"description" : "",
+	"message" : "My records don't show any crime history for you."    
+    },
+    "ERASE_CRIME_HISTORY_MESSAGE" : {
+	"description" : "",
+	"message" : "According to my records you have the following crime history:"
+    },
+    "ERASE_CRIME_HISTORY_OPTION" : {
+	"description" : "",
+	"message" : "Erase {faction} crime history for {cash}."
+    },
+    "NO_FINE" : {
+	"description" : "",
+	"message" : "I can't find any open fines for you."    
+    },
+    "PAY_FINE_MESSAGE" : {
+	"description" : "",
+	"message" : "My records show the following outstanding fines:"    
+    },
+    "PAY_FINE_OPTION" : {
+	"description" : "",
+	"message" : "Cancel {faction} fine ({fine}) for {cash}."    
+    },
+    "YOU_DONT_HAVE_ENOUGH_MONEY" : {
+	"description" : "",
+	"message" : "You don't have enough money for this service."
+    },
+    "SEND_WITH_DELAY" : {
+	"description" : "",
+	"message" : "It will take a little bit longer because all of my guys are busy right now. But I am expecting {shiplabel} to arrive very soon and will have her take care of it as soon she is back."
+    },
+    "SEND_IMMEDIATELY" : {
+	"description" : "",
+	"message" : "Great! I have {shiplabel} waiting right here with a very experienced pilot. She will leave with the orders within 5 minutes."
+    },
+    "CRIME_HISTORY_ERASED_BY" : {
+	"description" : "",
+	"message" : "Expect your {faction} crime history to have been cleared by {date}."
+    },
+    "FINE_PAYED_BY" : {
+	"description" : "",
+	"message" : "Expect your outstanding fines in {faction} space to have been taken care of by {date}."
+    },
+    "BACK_TO_SERVICE_SELECTION" : {
+	"description" : "",
+	"message" : "Back to service selection."
+    }
+}
