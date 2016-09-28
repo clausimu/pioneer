@@ -433,7 +433,7 @@
    },
    "GAME_LOAD_CANNOT_OPEN" : {
       "description" : "",
-      "message" : "此游戏文件由于权限或其它问题无法打开..."
+      "message" : "Save file '%filename' could not be found (or the game does not have access to open it)."
    },
    "GAME_LOAD_CORRUPT" : {
       "description" : "",
@@ -559,9 +559,17 @@
       "description" : "",
       "message" : "超空间跳跃中止."
    },
+   "HYPERSPACE_JUMP_DISABLED" : {
+      "description" : "Mouse over text for hyperdrive button on ship control panel",
+      "message" : "Hyperdrive disabled"
+   },
    "HYPERSPACE_JUMP_ENGAGE" : {
       "description" : "Mouse over text for hyperdrive button on ship control panel",
       "message" : "Engage Hyperdrive"
+   },
+   "HYPERSPACE_JUMP_FORBIDDEN" : {
+      "description" : "Mouse over text for hyperdrive button on ship control panel",
+      "message" : "Hyperdrive forbidden zone"
    },
    "HYPERSPACE_TARGET" : {
       "description" : "",
@@ -619,10 +627,6 @@
       "description" : "",
       "message" : "内部视角"
    },
-   "INT_LY" : {
-      "description" : "integer number of light years",
-      "message" : "%scale ly"
-   },
    "IN_TRANSIT" : {
       "description" : "",
       "message" : "正在中转"
@@ -642,6 +646,10 @@
    "JOY_AXIS" : {
       "description" : "Regarding joystick",
       "message" : "%{sign}Joy%joynum %axis 轴"
+   },
+   "JUMP_COMPLETE" : {
+      "description" : "",
+      "message" : "Jump complete: %percent%%"
    },
    "KM_S_RELATIVE_TO" : {
       "description" : "",
@@ -672,7 +680,7 @@
       "message" : "侦测到激光发射."
    },
    "LATITUDE" : {
-      "description" : "",
+      "description" : "Short for latitude",
       "message" : "Lat:"
    },
    "LEGAL_CURRENT_SYSTEM" : {
@@ -699,16 +707,12 @@
       "description" : "",
       "message" : "活动物"
    },
-   "LOCAL_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "猎户臂"
-   },
    "LOCKED" : {
       "description" : "to lock a hyperspace target",
       "message" : "锁定"
    },
-   "LONGTITUDE" : {
-      "description" : "",
+   "LONGITUDE" : {
+      "description" : "Short for longitude",
       "message" : "Long:"
    },
    "MAJOR_EXPORTS" : {
@@ -955,10 +959,6 @@
       "description" : "",
       "message" : "神经毒气"
    },
-   "NORMA_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "天鹅臂"
-   },
    "NOT_FOUND" : {
       "description" : "searching star system in sector view",
       "message" : "未找到"
@@ -1087,10 +1087,6 @@
       "description" : "",
       "message" : "可在户外活动的农业星球."
    },
-   "OUTER_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "外部臂"
-   },
    "OVER_N_BILLION" : {
       "description" : "",
       "message" : "超过 %population 000000000"
@@ -1114,10 +1110,6 @@
    "PERIAPSIS_DISTANCE" : {
       "description" : "",
       "message" : "近拱点距离"
-   },
-   "PERSEUS_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "英仙臂"
    },
    "PIONEER" : {
       "description" : "",
@@ -1190,10 +1182,6 @@
    "PRESSURE_N_ATMOSPHERES" : {
       "description" : "",
       "message" : "气压: %pressure{f.2} atm"
-   },
-   "PROBABILITY_OF_ARRIVAL_X_PERCENT" : {
-      "description" : "",
-      "message" : "到达可能性: %probability%%"
    },
    "QUADRUPLE_SYSTEM" : {
       "description" : "",
@@ -1279,10 +1267,6 @@
       "description" : "",
       "message" : "废料"
    },
-   "SAGITTARIUS_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "射手臂"
-   },
    "SCANNER_CONTROL" : {
       "description" : "",
       "message" : "扫描仪控制"
@@ -1294,10 +1278,6 @@
    "SCREENSHOT_FILENAME_TEMPLATE" : {
       "description" : "",
       "message" : "截图 %index{d08}.png"
-   },
-   "SCUTUM_CENTAURUS_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "半人马臂"
    },
    "SEARCH" : {
       "description" : "",
@@ -1659,10 +1639,6 @@
       "description" : "",
       "message" : "较薄的"
    },
-   "THREE_KPC_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "3k秒差距旋臂"
-   },
    "THRIVING_OUTDOOR_WORLD" : {
       "description" : "",
       "message" : "可在户外活动的繁荣星球."
@@ -1699,6 +1675,10 @@
       "description" : "",
       "message" : "微小的"
    },
+   "TOGGLE_EQUIPMENT_VIEW" : {
+      "description" : "Tooltip for the Equipment View button",
+      "message" : "Equipment View"
+   },
    "TOGGLE_HUD_MODE" : {
       "description" : "",
       "message" : "切换 HUD 模式"
@@ -1710,6 +1690,10 @@
    "TOGGLE_ROTATION_DAMPING" : {
       "description" : "",
       "message" : "切换旋转消除"
+   },
+   "TOGGLE_SCANNER_VIEW" : {
+      "description" : "Tooltip for the Scanner View button",
+      "message" : "Scanner View"
    },
    "TOGGLE_SCAN_MODE" : {
       "description" : "",
@@ -1742,6 +1726,34 @@
    "UNEXPLORED_SYSTEM_STAR_INFO_ONLY" : {
       "description" : "",
       "message" : "未探索的星系.已使用远程探测器收集到恒星信息,但行星信息仍不可用."
+   },
+   "UNIT_AU" : {
+      "description" : "Distance unit: an astronomical unit, radius of Earth's orbit",
+      "message" : "AU"
+   },
+   "UNIT_DAYS" : {
+      "description" : "Duration unit: one 24-hour day",
+      "message" : "d"
+   },
+   "UNIT_HOURS" : {
+      "description" : "Duration unit: one 60-minute hour",
+      "message" : "h"
+   },
+   "UNIT_LY" : {
+      "description" : "Distance unit: a light year",
+      "message" : "ly"
+   },
+   "UNIT_MINUTES" : {
+      "description" : "Duration unit: one 60-second minute",
+      "message" : "m"
+   },
+   "UNIT_SECONDS" : {
+      "description" : "Duration unit: one second",
+      "message" : "s"
+   },
+   "UNIT_WEEKS" : {
+      "description" : "Duration unit: one 7-day week",
+      "message" : "w"
    },
    "UNKNOWN" : {
       "description" : "",

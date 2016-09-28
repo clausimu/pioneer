@@ -433,7 +433,7 @@
    },
    "GAME_LOAD_CANNOT_OPEN" : {
       "description" : "",
-      "message" : "Denne gemning kunne ikke åbnes på grund af rettigheder eller lignende..."
+      "message" : "Save file '%filename' could not be found (or the game does not have access to open it)."
    },
    "GAME_LOAD_CORRUPT" : {
       "description" : "",
@@ -559,9 +559,17 @@
       "description" : "",
       "message" : "Hyperrum hop afbrudt."
    },
+   "HYPERSPACE_JUMP_DISABLED" : {
+      "description" : "Mouse over text for hyperdrive button on ship control panel",
+      "message" : "Hyperdrive disabled"
+   },
    "HYPERSPACE_JUMP_ENGAGE" : {
       "description" : "Mouse over text for hyperdrive button on ship control panel",
       "message" : "Engage Hyperdrive"
+   },
+   "HYPERSPACE_JUMP_FORBIDDEN" : {
+      "description" : "Mouse over text for hyperdrive button on ship control panel",
+      "message" : "Hyperdrive forbidden zone"
    },
    "HYPERSPACE_TARGET" : {
       "description" : "",
@@ -619,10 +627,6 @@
       "description" : "",
       "message" : "Invendigt synspunkt"
    },
-   "INT_LY" : {
-      "description" : "integer number of light years",
-      "message" : "%scale ly"
-   },
    "IN_TRANSIT" : {
       "description" : "",
       "message" : "I transit"
@@ -642,6 +646,10 @@
    "JOY_AXIS" : {
       "description" : "Regarding joystick",
       "message" : "%{sign}%joyname %axis Axis"
+   },
+   "JUMP_COMPLETE" : {
+      "description" : "",
+      "message" : "Jump complete: %percent%%"
    },
    "KM_S_RELATIVE_TO" : {
       "description" : "",
@@ -672,7 +680,7 @@
       "message" : "Laserskud detekteret."
    },
    "LATITUDE" : {
-      "description" : "",
+      "description" : "Short for latitude",
       "message" : "Lat:"
    },
    "LEGAL_CURRENT_SYSTEM" : {
@@ -699,16 +707,12 @@
       "description" : "",
       "message" : "Levende Dyr"
    },
-   "LOCAL_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "Local arm"
-   },
    "LOCKED" : {
       "description" : "to lock a hyperspace target",
       "message" : "låst"
    },
-   "LONGTITUDE" : {
-      "description" : "",
+   "LONGITUDE" : {
+      "description" : "Short for longitude",
       "message" : "Long:"
    },
    "MAJOR_EXPORTS" : {
@@ -955,10 +959,6 @@
       "description" : "",
       "message" : "Nervegas"
    },
-   "NORMA_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "Norma arm"
-   },
    "NOT_FOUND" : {
       "description" : "searching star system in sector view",
       "message" : "Ikke fundet"
@@ -1087,10 +1087,6 @@
       "description" : "",
       "message" : "Udendørs landbrugsverden."
    },
-   "OUTER_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "Ydre arm"
-   },
    "OVER_N_BILLION" : {
       "description" : "",
       "message" : "Over %population millarder"
@@ -1114,10 +1110,6 @@
    "PERIAPSIS_DISTANCE" : {
       "description" : "",
       "message" : "Afstand til periapse"
-   },
-   "PERSEUS_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "Perseus arm"
    },
    "PIONEER" : {
       "description" : "",
@@ -1190,10 +1182,6 @@
    "PRESSURE_N_ATMOSPHERES" : {
       "description" : "",
       "message" : "P: %pressure{f.2} atm"
-   },
-   "PROBABILITY_OF_ARRIVAL_X_PERCENT" : {
-      "description" : "",
-      "message" : "Sandsynlighed for ankomst: %probability%%"
    },
    "QUADRUPLE_SYSTEM" : {
       "description" : "",
@@ -1279,10 +1267,6 @@
       "description" : "",
       "message" : "Affald"
    },
-   "SAGITTARIUS_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "Sagittarius arm"
-   },
    "SCANNER_CONTROL" : {
       "description" : "",
       "message" : "Skannerkontrol"
@@ -1294,10 +1278,6 @@
    "SCREENSHOT_FILENAME_TEMPLATE" : {
       "description" : "",
       "message" : "screenshot%index{d08}.png"
-   },
-   "SCUTUM_CENTAURUS_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "Scutum-Centaurus arm"
    },
    "SEARCH" : {
       "description" : "",
@@ -1659,10 +1639,6 @@
       "description" : "",
       "message" : "tynd"
    },
-   "THREE_KPC_ARM" : {
-      "description" : "Arm of the Milky Way galaxy",
-      "message" : "3kpc arm"
-   },
    "THRIVING_OUTDOOR_WORLD" : {
       "description" : "",
       "message" : "Trivende udendørsverden."
@@ -1699,6 +1675,10 @@
       "description" : "",
       "message" : "Lille"
    },
+   "TOGGLE_EQUIPMENT_VIEW" : {
+      "description" : "Tooltip for the Equipment View button",
+      "message" : "Equipment View"
+   },
    "TOGGLE_HUD_MODE" : {
       "description" : "",
       "message" : "Skift HUD-tilstand"
@@ -1710,6 +1690,10 @@
    "TOGGLE_ROTATION_DAMPING" : {
       "description" : "",
       "message" : "Aktivér rotationsdæmpning"
+   },
+   "TOGGLE_SCANNER_VIEW" : {
+      "description" : "Tooltip for the Scanner View button",
+      "message" : "Scanner View"
    },
    "TOGGLE_SCAN_MODE" : {
       "description" : "",
@@ -1742,6 +1726,34 @@
    "UNEXPLORED_SYSTEM_STAR_INFO_ONLY" : {
       "description" : "",
       "message" : "Uudforsket system. Stjerneinformation er blevet samlet med fjernt teleskop, men der er ingen planetarisk information tilgængelig."
+   },
+   "UNIT_AU" : {
+      "description" : "Distance unit: an astronomical unit, radius of Earth's orbit",
+      "message" : "AU"
+   },
+   "UNIT_DAYS" : {
+      "description" : "Duration unit: one 24-hour day",
+      "message" : "d"
+   },
+   "UNIT_HOURS" : {
+      "description" : "Duration unit: one 60-minute hour",
+      "message" : "h"
+   },
+   "UNIT_LY" : {
+      "description" : "Distance unit: a light year",
+      "message" : "ly"
+   },
+   "UNIT_MINUTES" : {
+      "description" : "Duration unit: one 60-second minute",
+      "message" : "m"
+   },
+   "UNIT_SECONDS" : {
+      "description" : "Duration unit: one second",
+      "message" : "s"
+   },
+   "UNIT_WEEKS" : {
+      "description" : "Duration unit: one 7-day week",
+      "message" : "w"
    },
    "UNKNOWN" : {
       "description" : "",

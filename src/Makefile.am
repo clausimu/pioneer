@@ -43,6 +43,7 @@ noinst_HEADERS = \
 	Game.h \
 	GameLog.h \
 	GasGiant.h \
+	GasGiantJobs.h \
 	GeoSphere.h \
 	HudTrail.h \
 	HyperspaceCloud.h \
@@ -106,6 +107,8 @@ noinst_HEADERS = \
 	PropertyMap.h \
 	Quaternion.h \
 	Random.h \
+	RandomColor.h \
+	Range.h \
 	RefCounted.h \
 	SDLWrappers.h \
 	SectorView.h \
@@ -176,6 +179,7 @@ pioneer_SOURCES	= \
 	Game.cpp \
 	GameLog.cpp \
 	GasGiant.cpp \
+	GasGiantJobs.cpp \
 	GeoPatch.cpp \
 	GeoPatchContext.cpp \
 	GeoPatchID.cpp \
@@ -246,6 +250,7 @@ pioneer_SOURCES	= \
 	Polit.cpp \
 	Projectile.cpp \
 	PropertyMap.cpp \
+	RandomColor.cpp \
 	SDLWrappers.cpp \
 	SectorView.cpp \
 	Sensors.cpp \
@@ -423,6 +428,7 @@ modelcompiler_SOURCES = \
 	FontCache.cpp \
 	IniConfig.cpp \
 	GameConfig.cpp \
+	JobQueue.cpp \
 	Lang.cpp \
 	ModManager.cpp \
 	NavLights.cpp \

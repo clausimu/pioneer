@@ -1,4 +1,4 @@
-// Copyright © 2008-2015 Pioneer Developers. See AUTHORS.txt for details
+// Copyright © 2008-2016 Pioneer Developers. See AUTHORS.txt for details
 // Licensed under the terms of the GPL v3. See licenses/GPL-3.txt
 
 #ifndef _SHIP_H
@@ -52,7 +52,7 @@ class Ship: public DynamicBody {
 	friend class PlayerShipController;
 public:
 	OBJDEF(Ship, DynamicBody, SHIP);
-	Ship(ShipType::Id shipId);
+	Ship(const ShipType::Id &shipId);
 	Ship() {} //default constructor used before Load
 	virtual ~Ship();
 
@@ -218,6 +218,8 @@ public:
 	const SceneGraph::ModelSkin &GetSkin() const { return m_skin; }
 	void SetSkin(const SceneGraph::ModelSkin &skin);
 
+	void SetPattern(unsigned int num);
+
 	void SetLabel(const std::string &label);
 	void SetShipName(const std::string &shipName);
 
@@ -248,6 +250,7 @@ public:
 
 	sigc::signal<void> onDock;				// JJ: check what these are for
 	sigc::signal<void> onUndock;
+	sigc::signal<void> onLanded;
 
 	// mutable because asking to know when state changes is not the same as
 	// actually changing state

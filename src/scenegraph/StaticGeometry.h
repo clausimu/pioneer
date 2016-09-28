@@ -1,4 +1,4 @@
-// Copyright © 2008-2015 Pioneer Developers. See AUTHORS.txt for details
+// Copyright © 2008-2016 Pioneer Developers. See AUTHORS.txt for details
 // Licensed under the terms of the GPL v3. See licenses/GPL-3.txt
 
 #ifndef _STATICGEOMETRY_H
@@ -50,6 +50,7 @@ protected:
 	~StaticGeometry();
 	void DrawBoundingBox(const Aabb &bb);
 	std::vector<Mesh> m_meshes;
+	std::vector<RefCountedPtr<Graphics::Material>> m_instanceMaterials;
 	Graphics::RenderState *m_renderState;
 	RefCountedPtr<Graphics::InstanceBuffer> m_instBuffer;
 };
