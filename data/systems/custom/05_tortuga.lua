@@ -36,7 +36,7 @@ local helium_moons =
 	{
 	CustomSystemBody:new('Chard', 'PLANET_ASTEROID')
 		:seed(1231)
-		:radius(f(15,1000))
+		:radius(f(150,1000))
 		:mass(f(145,100000000000000))
 		:temp(465)
 		:semi_major_axis(f(2104,1000000))
