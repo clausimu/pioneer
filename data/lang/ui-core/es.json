@@ -151,9 +151,9 @@
       "description" : "",
       "message" : "Mercado de Productos"
    },
-   "COMPACT_SCANNER" : {
+   "COMPACT_RADAR" : {
       "description" : "Game settings option",
-      "message" : "Escáner compacto"
+      "message" : "Radar compacto"
    },
    "COMPETENT" : {
       "description" : "Combat rating",
@@ -1049,7 +1049,7 @@
    },
    "SIMULATING_UNIVERSE_EVOLUTION_N_BYEARS" : {
       "description" : "",
-      "message" : "Simulating evolution of the universe: {age} billion years ;-)"
+      "message" : "Simulando la evolución del universo: {age} mil millones de años ;-)"
    },
    "SOUND" : {
       "description" : "",
