@@ -24,13 +24,7 @@ local helium = CustomSystemBody:new('Helium', 'PLANET_GAS_GIANT')
 	:inclination(math.deg2rad(3.21))
 	:rotation_period(f(410,1000))
 	:axial_tilt(fixed.deg2rad(f(103,100)))
-	-- :metallicity(f(7,10))
-	-- :volcanicity(f(3,10))
 	:atmos_density(f(32,100))
-	-- :atmos_oxidizing(f(2,10))
-	-- :ocean_cover(f(3,10))
-        -- :ice_cover(f(2,100))
--- :orbital_phase_at_start(fixed.deg2rad(f(138,1)))
 
 local helium_moons =
 	{
@@ -65,11 +59,11 @@ local helium_moons =
 		:ocean_cover(f(2,100))
 		:ice_cover(f(0,1)),
 		{
-		CustomSystemBody:new('Gotham', 'STARPORT_SURFACE')
---			:latitude(math.deg2rad(9.2))
-		--			:longitude(math.deg2rad(45.7))
-			:latitude(math.deg2rad(172))
-			:longitude(math.deg2rad(20))
+			CustomSystemBody:new('Gotham', 'STARPORT_SURFACE')
+				:latitude(math.deg2rad(10))
+				:longitude(math.deg2rad(10))
+--			:latitude(math.deg2rad(1)) -- -80/172 = -66
+--			:longitude(math.deg2rad(1)) -- 130/20 = -128
 	}
 	}
 
